@@ -6,20 +6,17 @@
 
     <Button
     android:id="@+id/button_startBrowser_IntentFilter_ViewAction"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    style="@style/CustomeButtons"
     android:text="@string/StartBrowserViewAction"/>
 
     <Button
         android:id="@+id/button_startBrowser_IntentFilter_LaunchAction"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/CustomeButtons"
         android:text="@string/StartBrowserLaunchAction"/>
 
     <Button
         android:id="@+id/button_startBrowser_IntentFilter_Exception"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/CustomeButtons"
         android:text="@string/ExceptionCondition"/>
 
 </LinearLayout>
