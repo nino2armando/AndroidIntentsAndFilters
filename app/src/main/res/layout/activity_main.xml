@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+    android:id="@+id/button_startBrowser"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/StartBrowser"/>
+
+    <Button
+        android:id="@+id/button_startPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/StartPhone"/>
+
+    <Button
+        android:id="@+id/button_startIntentFilter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/StartIntentFilter"
+        android:onClick="onClickStartIntentFilter"/>
+
+</LinearLayout>
